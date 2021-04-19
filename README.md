@@ -177,3 +177,6 @@ These are only part of the companies using Nacos, for reference only. If you are
 ![明源云](https://img.alicdn.com/tfs/TB1.q14ErrpK1RjSZTEXXcWAVXa-219-219.jpg)
 
 
+# 打包命令
+`mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U `
+在nacos\distribution\target目录下找到压缩包
